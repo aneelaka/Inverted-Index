@@ -88,7 +88,7 @@ public static void main(String[] args) throws IOException, ClassNotFoundExceptio
 	   		System.err.println("Usage: Word Count <input path> <output path>");
 	   		System.exit(-1);
 	   	}	
-	   	//Creating a Hadoop job and assigning a job name for identification.
+	   	
 	   	Job job = new Job();
 	   	job.setJarByClass(Inverted_Index.class);
 	   	job.setJobName("InvertedIndex");
